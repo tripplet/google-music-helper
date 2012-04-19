@@ -5,6 +5,9 @@ Allows to play and pause music from the "Google Music" service directly from the
 
 The underlying applescripts are from http://hints.macworld.com/article.php?story=20110622061755509
 
+#Download:
+https://github.com/tripplet/google-music-helper/downloads
+
 Features
 ========
 * Play/Pause action
