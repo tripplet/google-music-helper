@@ -18,6 +18,8 @@ Known Limitations
 * only working with chrome
 * Gooble Music tab has to be open
 
+Screenshot
+==========
 
-[image]: (http://github.com/tripplet/google-music-helper/raw/master/screenshot.png)
+![](https://github.com/tripplet/google-music-helper/raw/master/screenshot.png) 
 
