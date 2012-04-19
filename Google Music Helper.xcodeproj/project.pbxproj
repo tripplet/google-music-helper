@@ -10,7 +10,6 @@
 		CD43047C154049D90053F828 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD43047B154049D90053F828 /* Cocoa.framework */; };
 		CD430486154049D90053F828 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD430484154049D90053F828 /* InfoPlist.strings */; };
 		CD430488154049D90053F828 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD430487154049D90053F828 /* main.m */; };
-		CD43048C154049D90053F828 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CD43048A154049D90053F828 /* Credits.rtf */; };
 		CD43048F154049D90053F828 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD43048E154049D90053F828 /* AppDelegate.m */; };
 		CD430492154049D90053F828 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD430490154049D90053F828 /* MainMenu.xib */; };
 		CD43049B15404D990053F828 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = CD43049A15404D990053F828 /* icon.icns */; };
@@ -29,7 +28,6 @@
 		CD430485154049D90053F828 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CD430487154049D90053F828 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD430489154049D90053F828 /* Google Music Helper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Google Music Helper-Prefix.pch"; sourceTree = "<group>"; };
-		CD43048B154049D90053F828 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		CD43048D154049D90053F828 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD43048E154049D90053F828 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CD430491154049D90053F828 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -109,7 +107,6 @@
 				CD430484154049D90053F828 /* InfoPlist.strings */,
 				CD430487154049D90053F828 /* main.m */,
 				CD430489154049D90053F828 /* Google Music Helper-Prefix.pch */,
-				CD43048A154049D90053F828 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -168,7 +165,6 @@
 				CD4304A515405ECE0053F828 /* playpause.scpt in Resources */,
 				CD4304A615405ECE0053F828 /* search.scpt in Resources */,
 				CD430486154049D90053F828 /* InfoPlist.strings in Resources */,
-				CD43048C154049D90053F828 /* Credits.rtf in Resources */,
 				CD430492154049D90053F828 /* MainMenu.xib in Resources */,
 				CD43049B15404D990053F828 /* icon.icns in Resources */,
 				CD4304A11540568A0053F828 /* icon.png in Resources */,
@@ -196,14 +192,6 @@
 				CD430485154049D90053F828 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		CD43048A154049D90053F828 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD43048B154049D90053F828 /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 		CD430490154049D90053F828 /* MainMenu.xib */ = {
@@ -305,6 +293,7 @@
 				CD430497154049D90053F828 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
