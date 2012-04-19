@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD43047C154049D90053F828 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD43047B154049D90053F828 /* Cocoa.framework */; };
+		CD430486154049D90053F828 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD430484154049D90053F828 /* InfoPlist.strings */; };
+		CD430488154049D90053F828 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD430487154049D90053F828 /* main.m */; };
+		CD43048C154049D90053F828 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CD43048A154049D90053F828 /* Credits.rtf */; };
+		CD43048F154049D90053F828 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD43048E154049D90053F828 /* AppDelegate.m */; };
+		CD430492154049D90053F828 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD430490154049D90053F828 /* MainMenu.xib */; };
+		CD43049B15404D990053F828 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = CD43049A15404D990053F828 /* icon.icns */; };
+		CD4304A11540568A0053F828 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4304A01540568A0053F828 /* icon.png */; };
+		CD4304A515405ECE0053F828 /* playpause.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CD4304A21540595E0053F828 /* playpause.scpt */; };
+		CD4304A615405ECE0053F828 /* search.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CD4304A31540595E0053F828 /* search.scpt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD430477154049D90053F828 /* Google Music Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google Music Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD43047B154049D90053F828 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CD43047E154049D90053F828 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CD43047F154049D90053F828 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CD430480154049D90053F828 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD430483154049D90053F828 /* Google Music Helper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Google Music Helper-Info.plist"; sourceTree = "<group>"; };
+		CD430485154049D90053F828 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD430487154049D90053F828 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD430489154049D90053F828 /* Google Music Helper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Google Music Helper-Prefix.pch"; sourceTree = "<group>"; };
+		CD43048B154049D90053F828 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CD43048D154049D90053F828 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD43048E154049D90053F828 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD430491154049D90053F828 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD43049A15404D990053F828 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		CD4304A01540568A0053F828 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "Google Music Helper/icon.png"; sourceTree = "<group>"; };
+		CD4304A21540595E0053F828 /* playpause.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = playpause.scpt; path = "Google Music Helper/playpause.scpt"; sourceTree = "<group>"; };
+		CD4304A31540595E0053F828 /* search.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = search.scpt; path = "Google Music Helper/search.scpt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD430474154049D90053F828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD43047C154049D90053F828 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD43046C154049D90053F828 = {
+			isa = PBXGroup;
+			children = (
+				CD43049A15404D990053F828 /* icon.icns */,
+				CD4304A01540568A0053F828 /* icon.png */,
+				CD4304A21540595E0053F828 /* playpause.scpt */,
+				CD4304A31540595E0053F828 /* search.scpt */,
+				CD430481154049D90053F828 /* Google Music Helper */,
+				CD43047A154049D90053F828 /* Frameworks */,
+				CD430478154049D90053F828 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD430478154049D90053F828 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD430477154049D90053F828 /* Google Music Helper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD43047A154049D90053F828 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD43047B154049D90053F828 /* Cocoa.framework */,
+				CD43047D154049D90053F828 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD43047D154049D90053F828 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD43047E154049D90053F828 /* AppKit.framework */,
+				CD43047F154049D90053F828 /* CoreData.framework */,
+				CD430480154049D90053F828 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CD430481154049D90053F828 /* Google Music Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CD43048D154049D90053F828 /* AppDelegate.h */,
+				CD43048E154049D90053F828 /* AppDelegate.m */,
+				CD430490154049D90053F828 /* MainMenu.xib */,
+				CD430482154049D90053F828 /* Supporting Files */,
+			);
+			path = "Google Music Helper";
+			sourceTree = "<group>";
+		};
+		CD430482154049D90053F828 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD430483154049D90053F828 /* Google Music Helper-Info.plist */,
+				CD430484154049D90053F828 /* InfoPlist.strings */,
+				CD430487154049D90053F828 /* main.m */,
+				CD430489154049D90053F828 /* Google Music Helper-Prefix.pch */,
+				CD43048A154049D90053F828 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD430476154049D90053F828 /* Google Music Helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD430495154049D90053F828 /* Build configuration list for PBXNativeTarget "Google Music Helper" */;
+			buildPhases = (
+				CD430473154049D90053F828 /* Sources */,
+				CD430474154049D90053F828 /* Frameworks */,
+				CD430475154049D90053F828 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Google Music Helper";
+			productName = "Google Music Helper";
+			productReference = CD430477154049D90053F828 /* Google Music Helper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD43046E154049D90053F828 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Wincor;
+			};
+			buildConfigurationList = CD430471154049D90053F828 /* Build configuration list for PBXProject "Google Music Helper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD43046C154049D90053F828;
+			productRefGroup = CD430478154049D90053F828 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD430476154049D90053F828 /* Google Music Helper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD430475154049D90053F828 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4304A515405ECE0053F828 /* playpause.scpt in Resources */,
+				CD4304A615405ECE0053F828 /* search.scpt in Resources */,
+				CD430486154049D90053F828 /* InfoPlist.strings in Resources */,
+				CD43048C154049D90053F828 /* Credits.rtf in Resources */,
+				CD430492154049D90053F828 /* MainMenu.xib in Resources */,
+				CD43049B15404D990053F828 /* icon.icns in Resources */,
+				CD4304A11540568A0053F828 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD430473154049D90053F828 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD430488154049D90053F828 /* main.m in Sources */,
+				CD43048F154049D90053F828 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD430484154049D90053F828 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD430485154049D90053F828 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD43048A154049D90053F828 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD43048B154049D90053F828 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CD430490154049D90053F828 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD430491154049D90053F828 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD430493154049D90053F828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD430494154049D90053F828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD430496154049D90053F828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Google Music Helper/Google Music Helper-Prefix.pch";
+				INFOPLIST_FILE = "Google Music Helper/Google Music Helper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD430497154049D90053F828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Google Music Helper/Google Music Helper-Prefix.pch";
+				INFOPLIST_FILE = "Google Music Helper/Google Music Helper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD430471154049D90053F828 /* Build configuration list for PBXProject "Google Music Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD430493154049D90053F828 /* Debug */,
+				CD430494154049D90053F828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD430495154049D90053F828 /* Build configuration list for PBXNativeTarget "Google Music Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD430496154049D90053F828 /* Debug */,
+				CD430497154049D90053F828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD43046E154049D90053F828 /* Project object */;
+}
