@@ -16,6 +16,8 @@
 		CD4304A11540568A0053F828 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4304A01540568A0053F828 /* icon.png */; };
 		CD4304A515405ECE0053F828 /* playpause.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CD4304A21540595E0053F828 /* playpause.scpt */; };
 		CD4304A615405ECE0053F828 /* search.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CD4304A31540595E0053F828 /* search.scpt */; };
+		CDF0186A154580CB00B4F038 /* nextSong.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CDF01868154580CB00B4F038 /* nextSong.scpt */; };
+		CDF0186B154580CB00B4F038 /* prevSong.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CDF01869154580CB00B4F038 /* prevSong.scpt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		CD4304A01540568A0053F828 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "Google Music Helper/icon.png"; sourceTree = "<group>"; };
 		CD4304A21540595E0053F828 /* playpause.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = playpause.scpt; path = "Google Music Helper/playpause.scpt"; sourceTree = "<group>"; };
 		CD4304A31540595E0053F828 /* search.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = search.scpt; path = "Google Music Helper/search.scpt"; sourceTree = "<group>"; };
+		CDF01868154580CB00B4F038 /* nextSong.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = nextSong.scpt; path = "Google Music Helper/nextSong.scpt"; sourceTree = "<group>"; };
+		CDF01869154580CB00B4F038 /* prevSong.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = prevSong.scpt; path = "Google Music Helper/prevSong.scpt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				CD43049A15404D990053F828 /* icon.icns */,
 				CD4304A01540568A0053F828 /* icon.png */,
 				CD4304A21540595E0053F828 /* playpause.scpt */,
+				CDF01868154580CB00B4F038 /* nextSong.scpt */,
+				CDF01869154580CB00B4F038 /* prevSong.scpt */,
 				CD4304A31540595E0053F828 /* search.scpt */,
 				CD430481154049D90053F828 /* Google Music Helper */,
 				CD43047A154049D90053F828 /* Frameworks */,
@@ -168,6 +174,8 @@
 				CD430492154049D90053F828 /* MainMenu.xib in Resources */,
 				CD43049B15404D990053F828 /* icon.icns in Resources */,
 				CD4304A11540568A0053F828 /* icon.png in Resources */,
+				CDF0186A154580CB00B4F038 /* nextSong.scpt in Resources */,
+				CDF0186B154580CB00B4F038 /* prevSong.scpt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

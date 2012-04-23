@@ -38,7 +38,8 @@
 					<object class="NSMenuItem" id="311329442">
 						<reference key="NSMenu" ref="191291053"/>
 						<string key="NSTitle">Play/Pause</string>
-						<string key="NSKeyEquiv"/>
+						<string key="NSKeyEquiv">P</string>
+						<int key="NSKeyEquivModMask">1048576</int>
 						<int key="NSMnemonicLoc">2147483647</int>
 						<object class="NSCustomResource" key="NSOnImage" id="443460627">
 							<string key="NSClassName">NSImage</string>
@@ -51,9 +52,18 @@
 					</object>
 					<object class="NSMenuItem" id="315829876">
 						<reference key="NSMenu" ref="191291053"/>
-						<bool key="NSIsDisabled">YES</bool>
-						<string key="NSTitle">Next Song</string>
-						<string key="NSKeyEquiv"/>
+						<string key="NSTitle">Next song</string>
+						<string key="NSKeyEquiv">N</string>
+						<int key="NSKeyEquivModMask">1048576</int>
+						<int key="NSMnemonicLoc">2147483647</int>
+						<reference key="NSOnImage" ref="443460627"/>
+						<reference key="NSMixedImage" ref="318312304"/>
+					</object>
+					<object class="NSMenuItem" id="232778144">
+						<reference key="NSMenu" ref="191291053"/>
+						<string key="NSTitle">Previous song</string>
+						<string key="NSKeyEquiv">B</string>
+						<int key="NSKeyEquivModMask">1048576</int>
 						<int key="NSMnemonicLoc">2147483647</int>
 						<reference key="NSOnImage" ref="443460627"/>
 						<reference key="NSMixedImage" ref="318312304"/>
@@ -61,7 +71,8 @@
 					<object class="NSMenuItem" id="1032493885">
 						<reference key="NSMenu" ref="191291053"/>
 						<string key="NSTitle">Search ...</string>
-						<string key="NSKeyEquiv"/>
+						<string key="NSKeyEquiv">S</string>
+						<int key="NSKeyEquivModMask">1048576</int>
 						<int key="NSMnemonicLoc">2147483647</int>
 						<reference key="NSOnImage" ref="443460627"/>
 						<reference key="NSMixedImage" ref="318312304"/>
@@ -135,6 +146,22 @@
 					</object>
 					<int key="connectionID">548</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">nextSong:</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="315829876"/>
+					</object>
+					<int key="connectionID">552</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">previousSong:</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="232778144"/>
+					</object>
+					<int key="connectionID">554</int>
+				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<array key="orderedObjects">
@@ -181,6 +208,7 @@
 							<reference ref="1046715546"/>
 							<reference ref="675901937"/>
 							<reference ref="315829876"/>
+							<reference ref="232778144"/>
 						</array>
 						<reference key="parent" ref="0"/>
 						<string key="objectName">StatusMenu</string>
@@ -210,6 +238,11 @@
 						<reference key="object" ref="315829876"/>
 						<reference key="parent" ref="191291053"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">551</int>
+						<reference key="object" ref="232778144"/>
+						<reference key="parent" ref="191291053"/>
+					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -224,12 +257,13 @@
 				<string key="543.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="544.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="547.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="551.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 			</dictionary>
 			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">548</int>
+			<int key="maxID">554</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -237,12 +271,22 @@
 					<string key="className">AppDelegate</string>
 					<string key="superclassName">NSObject</string>
 					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="nextSong:">id</string>
 						<string key="playPause:">id</string>
+						<string key="previousSong:">id</string>
 						<string key="searchSong:">id</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="nextSong:">
+							<string key="name">nextSong:</string>
+							<string key="candidateClassName">id</string>
+						</object>
 						<object class="IBActionInfo" key="playPause:">
 							<string key="name">playPause:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="previousSong:">
+							<string key="name">previousSong:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="searchSong:">
