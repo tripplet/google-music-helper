@@ -12,6 +12,7 @@ Features
 ========
 * Play/Pause action
 * search and play music
+* next and previous song
 
 
 
@@ -20,6 +21,7 @@ Known Limitations
 
 * only working with chrome
 * Gooble Music tab has to be open
+* previous song not working 100%
 
 Screenshot
 ==========
