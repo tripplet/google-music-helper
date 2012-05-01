@@ -25,6 +25,11 @@
   [statusItem setToolTip:@"Google Music Helper"];
   [statusItem setHighlightMode:YES];
   
+  [self loadScripts];
+}
+
+- (void)loadScripts
+{
   // load scripts
   NSString* path_playPause = [[NSBundle mainBundle] pathForResource:@"playpause" ofType:@"scpt"];
   NSURL* url_playPause = [NSURL fileURLWithPath:path_playPause];
