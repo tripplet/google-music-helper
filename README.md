@@ -2,7 +2,7 @@ google-music-helper
 ===================
 
 Allows to play and pause music from the "Google Music" service directly from the statusbar.
-Working with multimedia keys: play, rewind = previous soing, forward = next song
+Working with multimedia keys: play, rewind = previous song, forward = next song
 
 The underlying applescripts are from http://hints.macworld.com/article.php?story=20110622061755509
 
