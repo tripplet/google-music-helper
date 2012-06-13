@@ -18,6 +18,9 @@
 		CD4304A615405ECE0053F828 /* search.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CD4304A31540595E0053F828 /* search.scpt */; };
 		CDF0186A154580CB00B4F038 /* nextSong.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CDF01868154580CB00B4F038 /* nextSong.scpt */; };
 		CDF0186B154580CB00B4F038 /* prevSong.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CDF01869154580CB00B4F038 /* prevSong.scpt */; };
+		CDFAC40B1588D16B005A7B89 /* SPMediaKeyTap.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFAC4091588D16B005A7B89 /* SPMediaKeyTap.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CDFAC4121588D48C005A7B89 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFAC4111588D48C005A7B89 /* IOKit.framework */; };
+		CDFAC4141588D496005A7B89 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFAC4131588D496005A7B89 /* Carbon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,10 @@
 		CD4304A31540595E0053F828 /* search.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = search.scpt; path = "Google Music Helper/search.scpt"; sourceTree = "<group>"; };
 		CDF01868154580CB00B4F038 /* nextSong.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = nextSong.scpt; path = "Google Music Helper/nextSong.scpt"; sourceTree = "<group>"; };
 		CDF01869154580CB00B4F038 /* prevSong.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = prevSong.scpt; path = "Google Music Helper/prevSong.scpt"; sourceTree = "<group>"; };
+		CDFAC4081588D16B005A7B89 /* SPMediaKeyTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPMediaKeyTap.h; path = SPMediaKeyTap/SPMediaKeyTap.h; sourceTree = SOURCE_ROOT; };
+		CDFAC4091588D16B005A7B89 /* SPMediaKeyTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPMediaKeyTap.m; path = SPMediaKeyTap/SPMediaKeyTap.m; sourceTree = SOURCE_ROOT; };
+		CDFAC4111588D48C005A7B89 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		CDFAC4131588D496005A7B89 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDFAC4141588D496005A7B89 /* Carbon.framework in Frameworks */,
+				CDFAC4121588D48C005A7B89 /* IOKit.framework in Frameworks */,
 				CD43047C154049D90053F828 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,6 +65,8 @@
 		CD43046C154049D90053F828 = {
 			isa = PBXGroup;
 			children = (
+				CDFAC4131588D496005A7B89 /* Carbon.framework */,
+				CDFAC4111588D48C005A7B89 /* IOKit.framework */,
 				CD43049A15404D990053F828 /* icon.icns */,
 				CD4304A01540568A0053F828 /* icon.png */,
 				CD4304A21540595E0053F828 /* playpause.scpt */,
@@ -98,6 +109,7 @@
 		CD430481154049D90053F828 /* Google Music Helper */ = {
 			isa = PBXGroup;
 			children = (
+				CDFAC40E1588D170005A7B89 /* SPMediaKeyTap */,
 				CD43048D154049D90053F828 /* AppDelegate.h */,
 				CD43048E154049D90053F828 /* AppDelegate.m */,
 				CD430490154049D90053F828 /* MainMenu.xib */,
@@ -115,6 +127,15 @@
 				CD430489154049D90053F828 /* Google Music Helper-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDFAC40E1588D170005A7B89 /* SPMediaKeyTap */ = {
+			isa = PBXGroup;
+			children = (
+				CDFAC4081588D16B005A7B89 /* SPMediaKeyTap.h */,
+				CDFAC4091588D16B005A7B89 /* SPMediaKeyTap.m */,
+			);
+			name = SPMediaKeyTap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +209,7 @@
 			files = (
 				CD430488154049D90053F828 /* main.m in Sources */,
 				CD43048F154049D90053F828 /* AppDelegate.m in Sources */,
+				CDFAC40B1588D16B005A7B89 /* SPMediaKeyTap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -277,6 +300,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Google Music Helper/Google Music Helper-Prefix.pch";
 				INFOPLIST_FILE = "Google Music Helper/Google Music Helper-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

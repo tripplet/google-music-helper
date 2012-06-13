@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "SPMediaKeyTap.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate> {
   IBOutlet NSMenu *statusMenu;
