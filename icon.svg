@@ -10,15 +10,15 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="560"
-   height="560"
+   width="22.47374"
+   height="22.47374"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
    inkscape:export-filename="/Users/ttobias/Desktop/128.png"
    inkscape:export-xdpi="20.57"
    inkscape:export-ydpi="20.57"
-   sodipodi:docname="Neues Dokument 1">
+   sodipodi:docname="icon.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -360,9 +360,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.17"
-     inkscape:cx="286.40218"
-     inkscape:cy="526.20555"
+     inkscape:zoom="9.3887355"
+     inkscape:cx="15.378106"
+     inkscape:cy="12.810893"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -374,8 +374,8 @@
      fit-margin-bottom="0"
      inkscape:window-width="1200"
      inkscape:window-height="849"
-     inkscape:window-x="1901"
-     inkscape:window-y="135"
+     inkscape:window-x="1666"
+     inkscape:window-y="38"
      inkscape:window-maximized="0">
     <inkscape:grid
        type="xygrid"
@@ -401,10 +401,10 @@
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-172.125,-107.47358)">
+     transform="translate(-196.12059,-109.15671)">
     <g
        id="g4097"
-       transform="translate(35.937501,-2.1187573)">
+       transform="matrix(0.03932102,0,0,0.03932102,190.99254,105.07441)">
       <path
          inkscape:connector-curvature="0"
          id="path3827"

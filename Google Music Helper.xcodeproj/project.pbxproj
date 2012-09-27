@@ -13,15 +13,27 @@
 		CD43048F154049D90053F828 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD43048E154049D90053F828 /* AppDelegate.m */; };
 		CD430492154049D90053F828 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD430490154049D90053F828 /* MainMenu.xib */; };
 		CD43049B15404D990053F828 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = CD43049A15404D990053F828 /* icon.icns */; };
-		CD4304A11540568A0053F828 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4304A01540568A0053F828 /* icon.png */; };
-		CD4304A515405ECE0053F828 /* playpause.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CD4304A21540595E0053F828 /* playpause.scpt */; };
-		CD4304A615405ECE0053F828 /* search.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CD4304A31540595E0053F828 /* search.scpt */; };
-		CDF0186A154580CB00B4F038 /* nextSong.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CDF01868154580CB00B4F038 /* nextSong.scpt */; };
-		CDF0186B154580CB00B4F038 /* prevSong.scpt in Resources */ = {isa = PBXBuildFile; fileRef = CDF01869154580CB00B4F038 /* prevSong.scpt */; };
+		CD5C186C15C0137900A8AB1B /* DDHidLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5C186B15C0137900A8AB1B /* DDHidLib.framework */; };
+		CD990EDF161346EA00021D93 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD990EDE161346EA00021D93 /* WebViewController.m */; };
+		CD990EE9161469B800021D93 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD990EE8161469B800021D93 /* WebKit.framework */; };
+		CD990EEC161471AB00021D93 /* Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD990EEB161471AB00021D93 /* Window.xib */; };
+		CD990F2D161490EF00021D93 /* statusIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CD990F2C161490EF00021D93 /* statusIcon.pdf */; };
 		CDFAC40B1588D16B005A7B89 /* SPMediaKeyTap.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFAC4091588D16B005A7B89 /* SPMediaKeyTap.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CDFAC4121588D48C005A7B89 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFAC4111588D48C005A7B89 /* IOKit.framework */; };
 		CDFAC4141588D496005A7B89 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFAC4131588D496005A7B89 /* Carbon.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CDEE8A99159366BC00D93A3D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CD430477154049D90053F828 /* Google Music Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google Music Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,11 +49,14 @@
 		CD43048E154049D90053F828 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CD430491154049D90053F828 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		CD43049A15404D990053F828 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
-		CD4304A01540568A0053F828 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "Google Music Helper/icon.png"; sourceTree = "<group>"; };
-		CD4304A21540595E0053F828 /* playpause.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = playpause.scpt; path = "Google Music Helper/playpause.scpt"; sourceTree = "<group>"; };
-		CD4304A31540595E0053F828 /* search.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = search.scpt; path = "Google Music Helper/search.scpt"; sourceTree = "<group>"; };
-		CDF01868154580CB00B4F038 /* nextSong.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = nextSong.scpt; path = "Google Music Helper/nextSong.scpt"; sourceTree = "<group>"; };
-		CDF01869154580CB00B4F038 /* prevSong.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = prevSong.scpt; path = "Google Music Helper/prevSong.scpt"; sourceTree = "<group>"; };
+		CD5C186B15C0137900A8AB1B /* DDHidLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DDHidLib.framework; sourceTree = "<group>"; };
+		CD990EDD161346EA00021D93 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		CD990EDE161346EA00021D93 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		CD990EE8161469B800021D93 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		CD990EEB161471AB00021D93 /* Window.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Window.xib; sourceTree = "<group>"; };
+		CD990F2C161490EF00021D93 /* statusIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = statusIcon.pdf; path = "Google Music Helper/statusIcon.pdf"; sourceTree = "<group>"; };
+		CDEE8AA11593677900D93A3D /* HeadphoneTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadphoneTap.h; sourceTree = "<group>"; };
+		CDEE8AA21593677900D93A3D /* HeadphoneTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadphoneTap.m; sourceTree = "<group>"; };
 		CDFAC4081588D16B005A7B89 /* SPMediaKeyTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPMediaKeyTap.h; path = SPMediaKeyTap/SPMediaKeyTap.h; sourceTree = SOURCE_ROOT; };
 		CDFAC4091588D16B005A7B89 /* SPMediaKeyTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPMediaKeyTap.m; path = SPMediaKeyTap/SPMediaKeyTap.m; sourceTree = SOURCE_ROOT; };
 		CDFAC4111588D48C005A7B89 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
@@ -53,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD990EE9161469B800021D93 /* WebKit.framework in Frameworks */,
+				CD5C186C15C0137900A8AB1B /* DDHidLib.framework in Frameworks */,
 				CDFAC4141588D496005A7B89 /* Carbon.framework in Frameworks */,
 				CDFAC4121588D48C005A7B89 /* IOKit.framework in Frameworks */,
 				CD43047C154049D90053F828 /* Cocoa.framework in Frameworks */,
@@ -65,14 +82,9 @@
 		CD43046C154049D90053F828 = {
 			isa = PBXGroup;
 			children = (
-				CDFAC4131588D496005A7B89 /* Carbon.framework */,
-				CDFAC4111588D48C005A7B89 /* IOKit.framework */,
+				CD990F2C161490EF00021D93 /* statusIcon.pdf */,
+				CD990EE8161469B800021D93 /* WebKit.framework */,
 				CD43049A15404D990053F828 /* icon.icns */,
-				CD4304A01540568A0053F828 /* icon.png */,
-				CD4304A21540595E0053F828 /* playpause.scpt */,
-				CDF01868154580CB00B4F038 /* nextSong.scpt */,
-				CDF01869154580CB00B4F038 /* prevSong.scpt */,
-				CD4304A31540595E0053F828 /* search.scpt */,
 				CD430481154049D90053F828 /* Google Music Helper */,
 				CD43047A154049D90053F828 /* Frameworks */,
 				CD430478154049D90053F828 /* Products */,
@@ -90,30 +102,29 @@
 		CD43047A154049D90053F828 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CD43047B154049D90053F828 /* Cocoa.framework */,
-				CD43047D154049D90053F828 /* Other Frameworks */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CD43047D154049D90053F828 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
+				CD5C186B15C0137900A8AB1B /* DDHidLib.framework */,
+				CDFAC4131588D496005A7B89 /* Carbon.framework */,
+				CDFAC4111588D48C005A7B89 /* IOKit.framework */,
 				CD43047E154049D90053F828 /* AppKit.framework */,
 				CD43047F154049D90053F828 /* CoreData.framework */,
 				CD430480154049D90053F828 /* Foundation.framework */,
+				CD43047B154049D90053F828 /* Cocoa.framework */,
 			);
-			name = "Other Frameworks";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CD430481154049D90053F828 /* Google Music Helper */ = {
 			isa = PBXGroup;
 			children = (
+				CDEE8A5E159356A500D93A3D /* HeadphoneTap */,
 				CDFAC40E1588D170005A7B89 /* SPMediaKeyTap */,
 				CD43048D154049D90053F828 /* AppDelegate.h */,
 				CD43048E154049D90053F828 /* AppDelegate.m */,
 				CD430490154049D90053F828 /* MainMenu.xib */,
 				CD430482154049D90053F828 /* Supporting Files */,
+				CD990EDD161346EA00021D93 /* WebViewController.h */,
+				CD990EDE161346EA00021D93 /* WebViewController.m */,
+				CD990EEB161471AB00021D93 /* Window.xib */,
 			);
 			path = "Google Music Helper";
 			sourceTree = "<group>";
@@ -127,6 +138,15 @@
 				CD430489154049D90053F828 /* Google Music Helper-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDEE8A5E159356A500D93A3D /* HeadphoneTap */ = {
+			isa = PBXGroup;
+			children = (
+				CDEE8AA11593677900D93A3D /* HeadphoneTap.h */,
+				CDEE8AA21593677900D93A3D /* HeadphoneTap.m */,
+			);
+			name = HeadphoneTap;
 			sourceTree = "<group>";
 		};
 		CDFAC40E1588D170005A7B89 /* SPMediaKeyTap */ = {
@@ -148,6 +168,7 @@
 				CD430473154049D90053F828 /* Sources */,
 				CD430474154049D90053F828 /* Frameworks */,
 				CD430475154049D90053F828 /* Resources */,
+				CDEE8A99159366BC00D93A3D /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -189,14 +210,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD4304A515405ECE0053F828 /* playpause.scpt in Resources */,
-				CD4304A615405ECE0053F828 /* search.scpt in Resources */,
 				CD430486154049D90053F828 /* InfoPlist.strings in Resources */,
 				CD430492154049D90053F828 /* MainMenu.xib in Resources */,
 				CD43049B15404D990053F828 /* icon.icns in Resources */,
-				CD4304A11540568A0053F828 /* icon.png in Resources */,
-				CDF0186A154580CB00B4F038 /* nextSong.scpt in Resources */,
-				CDF0186B154580CB00B4F038 /* prevSong.scpt in Resources */,
+				CD990EEC161471AB00021D93 /* Window.xib in Resources */,
+				CD990F2D161490EF00021D93 /* statusIcon.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +228,7 @@
 				CD430488154049D90053F828 /* main.m in Sources */,
 				CD43048F154049D90053F828 /* AppDelegate.m in Sources */,
 				CDFAC40B1588D16B005A7B89 /* SPMediaKeyTap.m in Sources */,
+				CD990EDF161346EA00021D93 /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +305,10 @@
 		CD430496154049D90053F828 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Google Music Helper/Google Music Helper-Prefix.pch";
 				INFOPLIST_FILE = "Google Music Helper/Google Music Helper-Info.plist";
@@ -297,6 +320,10 @@
 		CD430497154049D90053F828 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Google Music Helper/Google Music Helper-Prefix.pch";
 				INFOPLIST_FILE = "Google Music Helper/Google Music Helper-Info.plist";

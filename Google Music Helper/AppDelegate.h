@@ -25,6 +25,7 @@
 - (IBAction)searchSong:(id)sender;
 - (IBAction)nextSong:(id)sender;
 - (IBAction)previousSong:(id)sender;
+- (IBAction)showWebView:(NSMenuItem *)sender;
 
 @property (assign) IBOutlet NSWindow *window;
 
