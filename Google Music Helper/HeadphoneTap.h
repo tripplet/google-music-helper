@@ -7,7 +7,22 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <DDHidLib/DDHidLib.h>
 
-@interface HeadphoneTap : NSApplication
 
+
+@interface HeadphoneTap : NSObject
+
+@property (nonatomic, strong) id delegate;
+@property (nonatomic, strong) DDHidDevice* headphone;
+
+
+-(id)initWithDelegate:(id)delegate;
+
+@end
+
+
+
+@interface NSObject (HeadphoneDelegate)
+-(void)buttonPressed:(HeadphoneTap*)sender;
 @end

@@ -22,7 +22,6 @@
 }
 
 - (IBAction)playPause:(id)sender;
-- (IBAction)searchSong:(id)sender;
 - (IBAction)nextSong:(id)sender;
 - (IBAction)previousSong:(id)sender;
 - (IBAction)showWebView:(NSMenuItem *)sender;

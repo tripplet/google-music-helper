@@ -25,7 +25,8 @@
 
 - (void)showWindow:(id)sender
 {
-  [self.window makeKeyAndOrderFront:self];
+  [NSApp activateIgnoringOtherApps:YES];
+  [self.window makeKeyAndOrderFront:sender];
 }
 
 - (void) tooglePlayPause

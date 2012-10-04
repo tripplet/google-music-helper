@@ -53,8 +53,6 @@ SPMediaKeyTap *mediaKeyListener;
 	//int keyRepeat = (keyFlags & 0x1);
 
 	if (keyState == 1 && self != NULL) {
-
-
 		switch (keyCode) {
 
 			case NX_KEYTYPE_PLAY:
