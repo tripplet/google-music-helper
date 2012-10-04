@@ -11,7 +11,6 @@ https://github.com/tripplet/google-music-helper/downloads
 Features
 ========
 * Play/Pause action
-* search and play music
 * next and previous song
 * multimedia keys
 
