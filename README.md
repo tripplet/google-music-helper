@@ -1,7 +1,7 @@
 google-music-helper
 ===================
 
-Allows to play and pause music from the "Google Music" service directly from the statusbar.
+Allows to play and pause music from the "Google Play Music" service directly from the statusbar.
 Working with multimedia keys: play, rewind = previous song, forward = next song
 
 #Download:
