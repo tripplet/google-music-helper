@@ -27,6 +27,7 @@
 - (IBAction)showWebView:(NSMenuItem *)sender;
 
 @property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSMenuItem *playPauseItem;
 
 @end
 

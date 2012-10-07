@@ -13,6 +13,7 @@
 		CD43048F154049D90053F828 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD43048E154049D90053F828 /* AppDelegate.m */; };
 		CD430492154049D90053F828 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD430490154049D90053F828 /* MainMenu.xib */; };
 		CD43049B15404D990053F828 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = CD43049A15404D990053F828 /* icon.icns */; };
+		CD6BFE951621E8350087E074 /* statusIcon_paused.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CD6BFE941621E8350087E074 /* statusIcon_paused.pdf */; };
 		CD990EDF161346EA00021D93 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD990EDE161346EA00021D93 /* WebViewController.m */; };
 		CD990EE9161469B800021D93 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD990EE8161469B800021D93 /* WebKit.framework */; };
 		CD990EEC161471AB00021D93 /* Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD990EEB161471AB00021D93 /* Window.xib */; };
@@ -48,6 +49,7 @@
 		CD43048E154049D90053F828 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CD430491154049D90053F828 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		CD43049A15404D990053F828 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		CD6BFE941621E8350087E074 /* statusIcon_paused.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = statusIcon_paused.pdf; path = "Google Music Helper/statusIcon_paused.pdf"; sourceTree = "<group>"; };
 		CD990EDD161346EA00021D93 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		CD990EDE161346EA00021D93 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		CD990EE8161469B800021D93 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				CD990F2C161490EF00021D93 /* statusIcon.pdf */,
+				CD6BFE941621E8350087E074 /* statusIcon_paused.pdf */,
 				CD43049A15404D990053F828 /* icon.icns */,
 				CD430481154049D90053F828 /* Google Music Helper */,
 				CD43047A154049D90053F828 /* Frameworks */,
@@ -199,6 +202,7 @@
 				CD43049B15404D990053F828 /* icon.icns in Resources */,
 				CD990EEC161471AB00021D93 /* Window.xib in Resources */,
 				CD990F2D161490EF00021D93 /* statusIcon.pdf in Resources */,
+				CD6BFE951621E8350087E074 /* statusIcon_paused.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

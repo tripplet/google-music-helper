@@ -44,4 +44,9 @@
   [self.webview stringByEvaluatingJavaScriptFromString:@"SJBpost('prevSong');"];
 }
 
+- (NSString*) getNextPlayPauseAction
+{
+  return [self.webview stringByEvaluatingJavaScriptFromString:@"document.getElementById('playPause').getAttribute('title');"];
+}
+
 @end

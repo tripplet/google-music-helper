@@ -17,4 +17,6 @@
 - (void) nextSong;
 - (void) previousSong;
 
+- (NSString*) getNextPlayPauseAction;
+
 @end
