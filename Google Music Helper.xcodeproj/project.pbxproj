@@ -14,6 +14,7 @@
 		CD430492154049D90053F828 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD430490154049D90053F828 /* MainMenu.xib */; };
 		CD43049B15404D990053F828 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = CD43049A15404D990053F828 /* icon.icns */; };
 		CD6BFE951621E8350087E074 /* statusIcon_paused.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CD6BFE941621E8350087E074 /* statusIcon_paused.pdf */; };
+		CD6FB9271779C59700EF05E6 /* GoogleMusicHelper.css in Resources */ = {isa = PBXBuildFile; fileRef = CD6FB9261779C59700EF05E6 /* GoogleMusicHelper.css */; };
 		CD990EDF161346EA00021D93 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD990EDE161346EA00021D93 /* WebViewController.m */; };
 		CD990EE9161469B800021D93 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD990EE8161469B800021D93 /* WebKit.framework */; };
 		CD990F2D161490EF00021D93 /* statusIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CD990F2C161490EF00021D93 /* statusIcon.pdf */; };
@@ -49,6 +50,7 @@
 		CD430491154049D90053F828 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		CD43049A15404D990053F828 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		CD6BFE941621E8350087E074 /* statusIcon_paused.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = statusIcon_paused.pdf; path = "Google Music Helper/statusIcon_paused.pdf"; sourceTree = "<group>"; };
+		CD6FB9261779C59700EF05E6 /* GoogleMusicHelper.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = GoogleMusicHelper.css; sourceTree = "<group>"; };
 		CD990EDD161346EA00021D93 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		CD990EDE161346EA00021D93 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		CD990EE8161469B800021D93 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
@@ -129,6 +131,7 @@
 				CD430484154049D90053F828 /* InfoPlist.strings */,
 				CD430487154049D90053F828 /* main.m */,
 				CD430489154049D90053F828 /* Google Music Helper-Prefix.pch */,
+				CD6FB9261779C59700EF05E6 /* GoogleMusicHelper.css */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				CD43049B15404D990053F828 /* icon.icns in Resources */,
 				CD990F2D161490EF00021D93 /* statusIcon.pdf in Resources */,
 				CD6BFE951621E8350087E074 /* statusIcon_paused.pdf in Resources */,
+				CD6FB9271779C59700EF05E6 /* GoogleMusicHelper.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,29 @@
+#gbzw,       /* links */
+#gbx3, #gbx4 /* background */
+{
+  display: none;
+}
+
+#gbq, #gbu,  /* controls */
+#gbx1, #gbx2 /* background */
+{
+  top: 0 !important;
+}
+
+/* Bar container */
+#gb {
+  height: 72px !important;
+}
+
+/* Share pop-up content */
+#gbwc.gbmwca {
+  top: -29px;
+}
+
+/* Google Keep specifics */
+body > div:first-child#gb {
+  display: none;
+}
+.notes-container {
+  top: 0 !important;
+}

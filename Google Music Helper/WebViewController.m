@@ -12,6 +12,13 @@
 
 - (void) awakeFromNib {
   [self.webview.mainFrame loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://play.google.com/music/"]]];
+  
+  // Setup user-stylesheet
+  [self.webview setPreferencesIdentifier:@"GoogleMusicHelper"];
+  [[self.webview preferences] setUserStyleSheetEnabled:YES];
+  [[self.webview preferences] setUserStyleSheetLocation:
+   [NSURL fileURLWithPath:
+    [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"GoogleMusicHelper.css"]]];
 }
 
 - (void)showWindow:(id)sender
