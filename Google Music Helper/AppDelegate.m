@@ -11,16 +11,12 @@
 //#import "HeadphoneTap.h"
 
 @interface AppDelegate()
-@property (nonatomic, strong) WebViewController* googemusicplayer;
 @end
 
 @implementation AppDelegate
 
 SPMediaKeyTap *mediaKeyListener;
 //HeadphoneTap *headphoneListener;
-
-@synthesize window;
-@synthesize googemusicplayer = _googemusicplayer;
 
 - (void)awakeFromNib
 {
@@ -40,7 +36,7 @@ SPMediaKeyTap *mediaKeyListener;
 
 -(void)applicationWillTerminate:(NSNotification *)notification
 {
-  [mediaKeyListener startWatchingMediaKeys];
+  [mediaKeyListener stopWatchingMediaKeys];
 }
 
 -(void)mediaKeyTap:(SPMediaKeyTap*)keyTap receivedMediaKeyEvent:(NSEvent*)event;
@@ -106,16 +102,6 @@ SPMediaKeyTap *mediaKeyListener;
 {
   [self.googemusicplayer previousSong];
 }
-
-- (WebViewController*) googemusicplayer
-{
-  if (!_googemusicplayer) {
-    _googemusicplayer = [[WebViewController alloc] init];
-  }
-  
-  return _googemusicplayer;
-}
-
 
 - (IBAction)showWebView:(NSMenuItem *)sender {
   [self.googemusicplayer showWindow:self];

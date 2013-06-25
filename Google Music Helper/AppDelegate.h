@@ -8,6 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import "SPMediaKeyTap.h"
+#import "WebViewController.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate> {
   IBOutlet NSMenu *statusMenu;
@@ -26,8 +27,7 @@
 - (IBAction)previousSong:(id)sender;
 - (IBAction)showWebView:(NSMenuItem *)sender;
 
-@property (assign) IBOutlet NSWindow *window;
 @property (weak) IBOutlet NSMenuItem *playPauseItem;
-
+@property (nonatomic, strong) IBOutlet WebViewController* googemusicplayer;
 @end
 

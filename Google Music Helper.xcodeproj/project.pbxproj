@@ -16,7 +16,6 @@
 		CD6BFE951621E8350087E074 /* statusIcon_paused.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CD6BFE941621E8350087E074 /* statusIcon_paused.pdf */; };
 		CD990EDF161346EA00021D93 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD990EDE161346EA00021D93 /* WebViewController.m */; };
 		CD990EE9161469B800021D93 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD990EE8161469B800021D93 /* WebKit.framework */; };
-		CD990EEC161471AB00021D93 /* Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD990EEB161471AB00021D93 /* Window.xib */; };
 		CD990F2D161490EF00021D93 /* statusIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CD990F2C161490EF00021D93 /* statusIcon.pdf */; };
 		CDFAC40B1588D16B005A7B89 /* SPMediaKeyTap.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFAC4091588D16B005A7B89 /* SPMediaKeyTap.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CDFAC4121588D48C005A7B89 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFAC4111588D48C005A7B89 /* IOKit.framework */; };
@@ -53,7 +52,6 @@
 		CD990EDD161346EA00021D93 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		CD990EDE161346EA00021D93 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		CD990EE8161469B800021D93 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		CD990EEB161471AB00021D93 /* Window.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Window.xib; sourceTree = "<group>"; };
 		CD990F2C161490EF00021D93 /* statusIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = statusIcon.pdf; path = "Google Music Helper/statusIcon.pdf"; sourceTree = "<group>"; };
 		CDFAC4081588D16B005A7B89 /* SPMediaKeyTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPMediaKeyTap.h; path = SPMediaKeyTap/SPMediaKeyTap.h; sourceTree = SOURCE_ROOT; };
 		CDFAC4091588D16B005A7B89 /* SPMediaKeyTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPMediaKeyTap.m; path = SPMediaKeyTap/SPMediaKeyTap.m; sourceTree = SOURCE_ROOT; };
@@ -119,7 +117,6 @@
 				CD990EDD161346EA00021D93 /* WebViewController.h */,
 				CD990EDE161346EA00021D93 /* WebViewController.m */,
 				CD430490154049D90053F828 /* MainMenu.xib */,
-				CD990EEB161471AB00021D93 /* Window.xib */,
 				CD430482154049D90053F828 /* Supporting Files */,
 			);
 			path = "Google Music Helper";
@@ -172,7 +169,7 @@
 		CD43046E154049D90053F828 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Wincor;
 			};
 			buildConfigurationList = CD430471154049D90053F828 /* Build configuration list for PBXProject "Google Music Helper" */;
@@ -200,7 +197,6 @@
 				CD430486154049D90053F828 /* InfoPlist.strings in Resources */,
 				CD430492154049D90053F828 /* MainMenu.xib in Resources */,
 				CD43049B15404D990053F828 /* icon.icns in Resources */,
-				CD990EEC161471AB00021D93 /* Window.xib in Resources */,
 				CD990F2D161490EF00021D93 /* statusIcon.pdf in Resources */,
 				CD6BFE951621E8350087E074 /* statusIcon_paused.pdf in Resources */,
 			);
@@ -248,6 +244,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -275,6 +275,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;

@@ -10,15 +10,6 @@
 
 @implementation WebViewController
 
-- (id)init
-{
-  if ((self = [super init])) {
-		[NSBundle loadNibNamed:@"Window" owner:self];
-  }
-  
-  return self;
-}
-
 - (void) awakeFromNib {
   [self.webview.mainFrame loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://play.google.com/music/"]]];
 }
@@ -27,6 +18,12 @@
 {
   [NSApp activateIgnoringOtherApps:YES];
   [self.window makeKeyAndOrderFront:sender];
+}
+
+- (BOOL)windowShouldClose:(id)sender {
+  [self.window orderOut:sender];
+  NSLog(@"%@", self.window);
+  return NO;
 }
 
 - (void) tooglePlayPause
