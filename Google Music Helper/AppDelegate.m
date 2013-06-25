@@ -74,21 +74,13 @@ SPMediaKeyTap *mediaKeyListener;
 
 - (void) updatePlayPauseState
 {
-  NSString* nextState = [self.googemusicplayer getNextPlayPauseAction];
-  
-  if ([nextState isEqualToString:@""]) {
-    [self.playPauseItem setTitle:@"Play/Pause"];
+  if ([self.googemusicplayer isMusicPlaying]) {
+    [self.playPauseItem setTitle:@"Pause"];
     [statusItem setImage:[NSImage imageNamed:@"statusIcon"]];
   }
   else {
-    [self.playPauseItem setTitle:nextState];
-    
-    if ([nextState isEqualToString:@"Play"]) {      
-      [statusItem setImage:[NSImage imageNamed:@"statusIcon_paused"]];
-    }
-    else {
-      [statusItem setImage:[NSImage imageNamed:@"statusIcon"]];
-    }
+    [self.playPauseItem setTitle:@"Play"];
+    [statusItem setImage:[NSImage imageNamed:@"statusIcon_paused"]];
   }
 }
 

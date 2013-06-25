@@ -29,7 +29,6 @@
 
 - (BOOL)windowShouldClose:(id)sender {
   [self.window orderOut:sender];
-  NSLog(@"%@", self.window);
   return NO;
 }
 
@@ -48,9 +47,10 @@
   [self.webview stringByEvaluatingJavaScriptFromString:@"SJBpost('prevSong');"];
 }
 
-- (NSString*) getNextPlayPauseAction
+- (BOOL) isMusicPlaying
 {
-  return [self.webview stringByEvaluatingJavaScriptFromString:@"document.getElementById('playPause').getAttribute('title');"];
+  NSString* ret = [self.webview stringByEvaluatingJavaScriptFromString:@"document.getElementsByClassName('player-middle')[0].childNodes[2].getAttribute('class').indexOf('playing')!=-1"];
+  return [ret boolValue];
 }
 
 @end
