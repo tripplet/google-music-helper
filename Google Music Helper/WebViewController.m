@@ -34,17 +34,17 @@
 
 - (void) tooglePlayPause
 {
-  [self.webview stringByEvaluatingJavaScriptFromString:@"SJBpost('playPause');"];
+   NSLog(@"%@",[self.webview stringByEvaluatingJavaScriptFromString:@"document.getElementsByClassName('player-middle')[0].childNodes[2].click()"]);
 }
 
 - (void) nextSong
 {
-  [self.webview stringByEvaluatingJavaScriptFromString:@"SJBpost('nextSong');"];
+  NSLog(@"%@",[self.webview stringByEvaluatingJavaScriptFromString:@"document.getElementsByClassName('player-middle')[0].childNodes[3].click()"]);
 }
 
 - (void) previousSong
 {
-  [self.webview stringByEvaluatingJavaScriptFromString:@"SJBpost('prevSong');"];
+   NSLog(@"%@",[self.webview stringByEvaluatingJavaScriptFromString:@"document.getElementsByClassName('player-middle')[0].childNodes[1].click()"]);
 }
 
 - (BOOL) isMusicPlaying
