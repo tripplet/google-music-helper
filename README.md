@@ -5,7 +5,7 @@ Allows to play and pause music from the "Google Play Music" service directly fro
 Working with multimedia keys: play, rewind = previous song, forward = next song
 
 #Download:
-https://dl.dropboxusercontent.com/u/6430703/Google%20Music%20Helper.app.zip
+https://github.com/tripplet/google-music-helper/releases/
 
 
 Features
@@ -14,6 +14,8 @@ Features
 * next and previous song
 * multimedia keys
 
+* press previous song once to got to the beginning of the current song
+* two presses in quick succession goes to previous song
 
 Known Limitations
 =================
