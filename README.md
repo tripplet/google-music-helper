@@ -1,6 +1,6 @@
 google-music-helper
 ===================
-![](https://api.travis-ci.org/tripplet/google-music-helper.png?branch=master)
+[![](https://api.travis-ci.org/tripplet/google-music-helper.png?branch=master)](https://travis-ci.org/tripplet/google-music-helper)
 
 Allows to play and pause music from the "Google Play Music" service directly from the statusbar.
 Working with multimedia keys: play, rewind = previous song, forward = next song
